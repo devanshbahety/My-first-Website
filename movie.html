@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Movie Review</title>
+    <style>
+      .movie-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .movie-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      .movie-poster {
+        width: 300px;
+        height: 450px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+
+      .movie-rating {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .fa-star {
+        color: yellow;
+        margin-right: 10px;
+      }
+
+      .movie-review {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="movie-container">
+      <h1 class="movie-title">Movie Title</h1>
+      <img
+        src="https://via.placeholder.com/300x450"
+        alt="Movie Poster"
+        class="movie-poster"
+      />
+      <div class="movie-rating">
+        <i class="fa fa-star"></i>
+        8.5/10
+      </div>
+      <p class="movie-review">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+        viverra euismod odio, gravida pellentesque urna varius vitae.
+        Sed dui lorem, adipiscing in adipiscing et, interdum nec metus.
+      </p>
+    </div>
+  </body>
+</html>
